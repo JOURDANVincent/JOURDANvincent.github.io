@@ -1,0 +1,334 @@
+body, html {
+  z-index: 1;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  background-image: url(../../assets/img/wall2.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+/* Page de garde */
+.homeBox {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+.hbTitleBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 35%;
+  margin-top: 20%;
+  background-color:rgba(16,16,16,0.8);
+  box-shadow: 2px 2px 2px 2px black;
+}
+.hbName {
+  height: 100%;
+  width: 50%;
+  padding: 0;
+  font-size: 110px;
+}
+#titleName {
+  margin: 0;
+  padding-top: 8px;
+  padding-left: 70px;
+}
+.hbDev {
+  height: 100%;
+  width: 50%;
+  padding: 0;
+  font-size: 50px;
+  color: #c87c60;
+}
+#titleDev {
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 0px;
+}
+
+
+/* bar de nnavigation sticky */
+.navBar {
+  z-index: 5;
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 10%;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(16,16,16,0.8);
+  position: -webkit-sticky; /* Safari */
+  box-shadow: 2px 2px 2px 2px black;
+}
+.navItem {
+  font-size: 20px;
+  float: right;
+}
+.navItem a {
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.navItem a:focus {
+  background-color:#151515;
+  opacity: 0.8;
+  color: #c87c60
+}
+.navItem a:hover {
+  background-color:#202020;
+  opacity: 0.8;
+}
+.navItem a:active {
+  background-color:#252525;
+  opacity: 0.8;
+}
+
+
+/* Bloc Compétences */
+.skillBox {
+  z-index: 3;
+  height: auto;
+  width: 20%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 2%;
+  margin-top: 50px;
+  background-color:rgba(16,16,16,0.8);
+  box-shadow: 2px 2px 2px 3px black;
+}
+.skillBox>h2 {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #c87c60
+}
+.proSkillBox, .persoSkillBox {
+  z-index: 5;
+  height: auto;
+  margin-top: 10px;
+}
+li {
+  list-style-type: none;
+}
+.skillItem {
+  color: #808080;
+}
+progress[value] {
+  float: right;
+}
+
+
+/* Section Expériences */
+.experBox {
+  z-index: 3;
+  width: 35%;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 2%;
+  background-color:rgba(16,16,16,0.8);
+  box-shadow: 2px 2px 2px 3px black;
+  text-align: center;
+}
+.experBox h2, .hobbiesBox h2 {
+  color: #c87c60
+}
+.fonction {
+  color: #808080;
+  margin-top: 2px;
+}
+.firm {
+  color: white;
+}
+
+
+/* Section Hobbies */
+.hobbiesBox {
+  z-index: 3;
+  height: 20%;
+  width: 35%;
+  margin: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:rgba(16,16,16,0.8);
+  box-shadow: 2px 2px 2px 3px black;
+  color: #808080;
+  text-align: center;
+}
+.hobbiesBox>h2 {
+  margin-top: 20px;
+}
+.music a, .brew a{
+  text-decoration: none;
+  color: white;
+}
+.hobbiesTextColor {
+  color: #c87c60;
+}
+
+
+/* section Formations */
+.formationBox {
+  z-index: 3;
+  width: 35%;
+  margin: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  background-color:rgba(16,16,16,0.8);
+  box-shadow: 2px 2px 2px 3px black;
+  color: white;
+  text-align: center;
+}
+.formationBox h2, .formPlace, .date {
+  color: #c87c60
+}
+.formName {
+  color: #808080;
+}
+
+
+/* Page contact */
+.contactGlobalBox {
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 1;
+  width: 96%;  
+  height: 750px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  padding: 0;
+  color: #c87c60;
+  background-color:rgba(16,16,16,0.8);
+  box-shadow: 2px 2px 2px 3px black;
+}
+.boxTitle {
+  margin-top: 30px;
+}
+.contactBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 3;
+  height: 60%;
+  width: 64%;
+  margin-top: 30px;
+  box-shadow: 2px 2px 2px 3px black;
+}
+.imgMySelf {
+  z-index: 5;
+  width: 60%;
+}
+.imgMySelf img {
+  z-index: 5;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+#titleContact {
+  margin-top: 10px;
+  width: 100%;
+}
+.contactTextBox {
+  z-index: 4;
+  height: 68%;
+  width: 30%;
+  text-align: center;
+  padding-top: 5%;
+}
+.contactTextBox p, label {
+  color: #909090;
+}
+.contactTextBox p {
+  margin: 0;
+}
+.contactTextBox h3 {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.linkBox {
+  z-index: 3;
+  position: relative;
+  bottom: 28%;
+  right: 17%;
+  height: 28%;
+  width: 64%;
+  box-shadow: 2px 2px 2px 3px black;
+}
+.linkDiv {
+  z-index: 5;
+  height: 30%;
+  text-align: center;
+}
+.imgLinkDiv {
+  z-index: 6;
+  height: 100%;
+  margin-top: 2%;
+  margin-right: 80px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.formBox {
+  z-index: 2;
+  height: 88%;
+  width: 30%;
+  padding: 0%;
+  padding-top: 2%;
+  margin-top: 30px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 2px 5px black;
+}
+.boxTitle {
+  text-align: center;
+}
+#formTitle {
+  z-index: 3;
+}
+.inputForm {
+  margin-top: 80px;
+}
+.inputForm ul {
+  z-index: 3;
+}
+.inputForm input, .inputForm textarea {
+  background-color: transparent;
+  color: #c87c60;
+  border: none;
+}
+#formBtn {
+  z-index: 4;
+  height: 30px;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 36%;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  background-color:  #c87c60;
+  border-radius: 15px;
+  border:transparent;
+  box-shadow: 2px 2px 2px 2px black;
+}
+.inputForm hr {
+  width: 90%;
+  opacity: 0.2;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/indexStyle.css">
+    <title>JOURDAN Vincent - Développeur Web et Web Mobile / CV / AMIENS / Home</title>
+</head>
+
+<body >
+
+  <!-- Page de garde -->
+  <div class=homeBox id=homePage>
+    <div class=hbTitleBox>
+      <div class=hbName><h1 id=titleName>JDN V</h1></div>
+      <div class=hbDev><h2 id=titleDev>Développeur Web <br> en devenir</h2></div>
+    </div>
+  </div>
+
+  <!-- Bar de Navigation avec option sticky-->
+  <ul class=navBar id=navBar>
+    <li class=navItem style="float: left;"><a class=active href="#homePage">Home</a></li>
+    <li class=navItem><a href="#contactPage">Contact</a></li>
+    <li class=navItem><a href="#hobbiesPage">Hobbies</a></li>
+    <li class=navItem><a href="#experiencePage">Expériences</a></li>
+    <li class=navItem><a href="#formationPage">Formations</a></li>
+    <li class=navItem><a href="#skillPage">Compétences</a></li>
+  </ul>
+
+  <!-- Bloc COmpétences -->
+  <div class=skillBox id=skillPage>
+    <h2>COMPÉTENCES</h2>
+    <div class=proSkillBox>
+      <h3>Professionnelles</h3>
+      <ul class=SkillList>
+        <li class=skillItem id="html" >HTML 5<progress class=progress value=80 max=100></progress></li>
+        <li class=skillItem id="css" >CSS 3<progress class=progress value=80 max=100></progress></li>
+        <li class=skillItem id="php" >PHP<progress class=progress value=80 max=100></progress></li>
+        <li class=skillItem id="bootstrap" >BOOTSTRAP<progress class=progress value=80 max=100></progress>
+      </ul>
+    </div>
+    <div class=persoSkillBox>
+      <h3>Personnelles</h3>
+      <ul class=SkillList>
+        <li class=skillItem id="python" >PYTHON<progress class=progress value=80></progress></li>
+        <li class=skillItem id="js" >JAVA SCRIPT<progress class=progress value=80 max=100></progress></li>
+        <li class=skillItem id="nodered" >NODE RED<progress class=progress value=80 max=100></progress></li>
+        <li class=skillItem id="gtk" >GTK 3<progress class=progress value=80 max=100></progress></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bloc Expériences -->
+  <div class=experBox id=experiencePage>
+    <h2 class=boxTitle>EXPÉRIENCES</h2>
+    <UL>
+      <li class=fonction >Technico-commercial Sédentaire <span class=firm >TECHNIQUES & INDUSTRIES</span> <span class="date" >2018-2020</span></li>
+      <li class=fonction >Technicien SAV/CE <span class=firm >MULTIVAC</span> <span class="date" >2013-2018</span></li>
+      <li class=fonction >Technicien de Maintenance <span class=firm >PPG</span> <span class="date" >2013</span></li>
+      <li class=fonction >Technicien de Maintenance <span class=firm >NEXANS</span> <span class="date" >2011-2012</span></li>
+      <li class=fonction >Technicien de Maintenance <span class=firm >VIRBAC</span> <span class="date" >2011</span></li>
+      <li class=fonction >Technicien de Maintenance <span class=firm >RACLOT</span> <span class="date" >2008-2010</span></li>
+      <li class=fonction >Electromécanicien <span class=firm >EMIN LEYDIER</span> <span class="date" >2008</span></li>
+      <li class=fonction >Electricien secteur B1/B2 <span class=firm >DUNLOP</span> <span class="date" >2006-2007</span></li>
+      <li class=fonction >Mécanicien secteur FARM <span class=firm >GOODYEAR</span> <span class="date" >2006</span></li>
+      <li class=fonction >Ajusteur / Monteur <span class=firm >AIRBUS</span> <span class="date" >2005</span></div>
+    </UL>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  <div class=formationBox id=formationPage>
+    <h2 class=boxTitle>FORMATIONS</h2>
+    <ul>
+      <li><span class="formName">DWWM </span>Développeur Web & Web Mobile<span class="formPlace"> La MANU AMIENS</span></li>
+      <li><span class="formName">BTS MAI </span>Mécanique & Automatisme<span class="formPlace"> Industriel CFAI Somme AMIENS</span></li>
+      <li><span class="formName">BAC STI GET </span>Génie En Electrotechnique<span class="formPlace"> Edouard Branly AMIENS</span></li>
+    </ul>
+  </div>
+
+  <!-- Bloc About -->
+  <div class="aboutBox">
+    <h2 class=boxTitle>ABOUT</h2>
+    <p>Salut ! Moi c'est Vincent</p>
+    <p>Je suis actuellement en formation à la MANU à Amiens </p>
+    <p>en vue de préparer mon diplôme de </p>
+    <p>Développeur Web & Web Mobile</p>
+    <p>La formation se termine fin mars 2021</p>
+    <p>N'hésitez pas à me contacter si vous avez des questions ou une proposition d'emploi</p>
+    
+  </div>
+
+  <!-- Bloc Hobbies -->
+  <div class=hobbiesBox id=hobbiesPage>
+    <h2 class=boxTitle>HOBBIES</h2>
+    <div class=music><span class="hobbiesTextColor">MAO</span> (Musique Assistée par Ordinateur) <a href="https://www.image-line.com/">Fruitloops</a> & <a href="">Acid Pro</a></div>
+    <div class=brew><span class="hobbiesTextColor">Brasseur Amateur</span> (IPA / NEIPA / RED IPA) <a href="">Grainfather</a></div>
+  </div>
+
+  <!-- Page Contact / Formulaire / Liens -->
+  <div class=contactGlobalBox id=contactPage>
+    <div class=contactBox>
+      <div class=boxTitle id=titleContact><h2 id=contactTitle>CONTACT</h2></div>
+      <div  class=imgMySelf><img src="assets/img/MaPhoto.jpg" alt="ma photo"></div>
+      <div class=contactTextBox>
+        <h3>Adresse</h3>
+        <p>15 rue Voltaire - 80080 AMIENS</p>
+        <h3>Téléphone</h3>
+        <p>06 86 65 89 04</p>
+        <h3>Email</h3>
+        <p>vincent.jourdan1183@orange.fr</p>
+      </div>
+    </div>
+
+    <div class=formBox id=formPage>
+      <h2 class=boxTitle id=formTitle>FORMULAIRE</h2>
+      <form class=inputForm>
+        <ul>
+          <li><label for="name">Nom  </label><input type="text" name="name" id=name ></li>
+          <hr>
+          <li><label for="firstName">Prénom</label> <input type="text"></li>
+          <hr>
+          <li><label for="email">Email  </label><input type="email"></li>
+          <hr>
+          <li><label for="message">Message  </label><textarea name="message" id="" rows="10"></textarea></li>
+          <hr>
+        </ul>
+        <br>
+        <button id=formBtn>Envoyer</button>
+      </form>
+    </div>
+
+    <div class=linkBox>
+      <div class=boxTitle ><h2 >MES AUTRES LIENS</h2></div>
+      <div class=linkDiv>
+        <a href="#formPage"><img class=imgLinkDiv src="assets/img/orange-1.jpg" alt="logo orange"></a>
+        <a href="https://www.linkedin.com/in/vincent-jourdan-99902015a"><img class=imgLinkDiv src="assets/img/Logo-LinkedIn.jpg" alt="logo linkedin"></a>
+        <a href="https://github.com/JOURDANVincent"><img class=imgLinkDiv src="assets/img/githubwhite.png" alt="logo github"></a>
+      </div>
+    </div>    
+
+  </div>
+  
+  
+</body>
+
+</html>
