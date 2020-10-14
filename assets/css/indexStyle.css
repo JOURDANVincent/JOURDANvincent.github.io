@@ -100,8 +100,8 @@ body, html {
   height: auto;
   width: 20%;
   padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
   margin: 2%;
   margin-top: 50px;
   background-color:rgba(16,16,16,0.8);
@@ -208,13 +208,24 @@ progress[value] {
   background-color:rgba(16,16,16,0.8);
   box-shadow: 2px 2px 2px 3px black;
   font-size: 20px;
-  color:white;
   text-align: center;
 }
-.aboutGrey {
+.aboutGrey, .aboutBox p {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.aboutJob p{
+  margin-top: 100px;
   color: #808080;
 }
-
+.aboutMe {
+  color: white;
+}
+.contactAbout {
+  margin-top: 30px;
+  font-size: 30px;
+}
 
 /* section qualité */
 .qualityBox {
